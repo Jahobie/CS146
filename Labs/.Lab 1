@@ -26,7 +26,7 @@ class Solution {
     }
 }
 
-////Python Code
+////Python Code Solution
 
 class Solution(object):
     def twoSum(self, nums, target):
