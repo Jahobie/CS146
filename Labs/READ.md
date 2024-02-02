@@ -2,7 +2,7 @@
 
 ## Approach to Problem
 
-The brute force solution for the Two Sum problem is far too inefficient. Instead, I took advantage of HashMap's fast data access to quickly store and retrieve elements that add up to the target.
+The brute force solution for the Two Sum problem is far too inefficient. Instead, I took advantage of HashMap's fast data access to quickly store and retrieve elements that add up to the target. 
 
 With this data structure, instead of comparing each individual element with every other element in the array, I can just look into the map and see if the complement is present, and return the value, which in this case is the index.
 
@@ -16,4 +16,5 @@ The code provided implements the solution using Java. Here's a breakdown of the 
 4. Check if the complement exists in the HashMap. If it does, return the indices of the current number and its complement.
 5. If the complement does not exist, add the current number and its index to the HashMap.
 
+### (Solutions were ran in Leetcode)
 
