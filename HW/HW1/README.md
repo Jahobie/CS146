@@ -15,7 +15,7 @@ To solve this problem, I implemented a Python class `Solution` with a method `is
 5. Iterate through the characters of `s` in reverse order using `s[::-1]`, and if a character is alphanumeric, append it to the `backward` list.
 6. Check if the `backward` list is equal to the `forward` list. If they are equal, return `True`, indicating that `s` is a palindrome. Otherwise, return `False`.
 
-## Code Explanation
+## Python Code Explanation
 
 The provided Python code implements the solution to the problem. Here's a brief explanation of the code:
 
@@ -27,5 +27,15 @@ The provided Python code implements the solution to the problem. Here's a brief 
 - Similarly, characters of `s` in reverse order are iterated through, and if a character is alphanumeric, it is appended to the `backward` list.
 - Finally, the `backward` list is compared with the `forward` list. If they are equal, the method returns `True`, indicating `s` is a palindrome; otherwise, it returns `False`.
 
+## Java Code Explanation
 
+The provided Java code implements the solution to the problem. Here's a brief explanation of the code:
 
+- The `isPalindrome` method takes a single parameter `s`, which is the input string to be checked for palindrome property.
+- If the input string `s` is empty, the method returns `true`.
+- Two pointers `start` and `last` are initialized to the beginning and end of the input string `s`.
+- The method iterates through the string using the pointers `start` and `last`, comparing characters at each position.
+- If the characters at the current positions are not alphanumeric, the pointers are adjusted accordingly.
+- If the characters are alphanumeric and not equal (ignoring cases), the method returns `false`.
+- If the characters are alphanumeric and equal (ignoring cases), the pointers are adjusted to continue the comparison.
+- If the iteration completes without finding any non-matching characters, the method returns `true`, indicating `s` is a palindrome.
