@@ -27,6 +27,9 @@ The provided Python code implements the solution to the problem. Here's a brief 
 - Similarly, characters of `s` in reverse order are iterated through, and if a character is alphanumeric, it is appended to the `backward` list.
 - Finally, the `backward` list is compared with the `forward` list. If they are equal, the method returns `True`, indicating `s` is a palindrome; otherwise, it returns `False`.
 
+## Approach to Problem
+-The Java solution is implemented in the `Solution` class with a method `isPalindrome`. Similar to the Python solution, it checks if the input string is a palindrome by considering only alphanumeric characters and ignoring cases. The implementation involves using two pointers (`start` and `last`) to iterate through the string and comparing characters from the beginning and end.
+
 ## Java Code Explanation
 
 The provided Java code implements the solution to the problem. Here's a brief explanation of the code:
