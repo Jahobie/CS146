@@ -25,5 +25,5 @@ MATRIX_MULTIPLY(A, B):
       result[i][j] ← sum               // (N^2) times
   return result
 ```
-T(N)=(N+1)+N+4N^2
+F(N)=(N+1)+N+4N^2
 The dominant term in this polynomial expression is 4N^2 therefore the time complexity for this matrix multiplication is quadratic.
