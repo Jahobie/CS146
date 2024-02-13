@@ -25,7 +25,7 @@ public static int[] insertionSort(int[] A, int n) {
 }
 ```
 
--F(N)=(N+1) + 3N + N^2/2 
+-F(N)=(N+1) + 2N + N^2/2 
 
 - The dominant term in this polynomial expression is n^2/2 therefore the complexity for insertion sort is quadratic.
 ​
