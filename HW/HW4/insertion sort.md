@@ -26,7 +26,7 @@ public static int[] insertionSort(int[] A, int n) {
     return A;
 }
 ```
-### Worst Case:    
+
 
 ## Big O
 - while (j >= 0 && A[j] > key) {      // (1 + 2 + 3 + ... + N) times = n(n-1)/2 = n^2 - n
