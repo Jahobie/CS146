@@ -29,26 +29,26 @@ MATRIX_MULTIPLY(A, B):
 
 
 ### Big O
-F(N)=2N^3 + 2N^2 +2n +1
+- F(N)=2N^3 + 2N^2 +2n +1
 
-F(n) = O(g(n)) if f(n) <= c*g(n) for n>= n0
+- F(n) = O(g(n)) if f(n) <= c*g(n) for n>= n0
 
-2n^3 + 2n^2  +2n+ 1 <=  7n^3 for n >= 1
+- 2n^3 + 2n^2  +2n+ 1 <=  7n^3 for n >= 1
 
-C = 7 g(n) = n^3 therefore,
+- C = 7 g(n) = n^3 therefore,
 
-f(n) = O(n^3)
+- f(n) = O(n^3)
 
 ### Big Omega
-F(N)=2N^3 + 2N^2 +2n +1
-F(n) = O(g(n)) if f(n) >= c*g(n) for n>= n0
+- F(N)=2N^3 + 2N^2 +2n +1
+- F(n) = O(g(n)) if f(n) >= c*g(n) for n>= n0
 
-2n^3 + 2n^2  +2n+ 1 >=  n^3 for n >= 1
+- 2n^3 + 2n^2  +2n+ 1 >=  n^3 for n >= 1
 
-C = 1 g(n) = n^3 therefore,
+- C = 1 g(n) = n^3 therefore,
 
-f(n) = O(n^3)
+- f(n) = O(n^3)
 
 ### Big Theta
 
-Since Big O and Big Omega are equal Big theta is Theta(n^3)
+- Since Big O and Big Omega are equal Big theta is Theta(n^3)
