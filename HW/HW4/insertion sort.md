@@ -51,4 +51,4 @@ public static int[] insertionSort(int[] A, int n) {
 -Therefore, f(n) = Omega(n^2) 
 
 ## Big Theta
--since Big O and Big omega are equal big theta is Theta(n^2) for the worst and average cases
+- Since Big O and Big omega are equal big theta is Theta(n^2) for the worst and average cases
