@@ -1,4 +1,33 @@
-Problem 2:
-1. Best case O(1)
-2. Worst Case O(sqrt(n))
-3. Average Case O(n)
+## Problem 1:
+### 1. 10000000000n^2 vs n^3
+ - n^3 is aympyotically greater as it is O(n^3) VS O(n^2)
+
+### 2. n2 log(n) vs n(log(n))^10
+  - n^2log(n) is asympotically greater because it is O(n^2logn) vs O(nlogn)
+
+### 3. n^logn vs 2^sqrt(N) 
+ 
+- 2^sqrt(n) is asymptotically greater because  sqrt(n) grows much faster than log(n)
+
+
+### 4. 2^n vs 2^2n
+
+ - 2^2n is asymptotically greater as 2n > n 
+ - however they are both O(n)
+
+
+
+# Problem 2:
+## Pseudocode for isPrime(n)
+
+```python
+isPrime(n):
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+```
+
+### 1. Best case O(1)
+### 2. Worst Case O(sqrt(n))
+### 3. Average Case O(n)
