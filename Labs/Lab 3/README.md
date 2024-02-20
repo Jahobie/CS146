@@ -6,8 +6,10 @@
   - n^2log(n) is asympotically greater because it is O(n^2logn) vs O(nlogn)
 
 ### 3. n^logn vs 2^sqrt(N) 
- 
-- 2^sqrt(n) is asymptotically greater because  sqrt(n) grows much faster than log(n)
+ - n^logn  2^sqrt(n)
+ - logn^logn log2^sqrt(n)
+ - log^2n  sqrt(n)log2
+ ## Therefore, n^logn is asymptotically greater than 2^sqrt(n) 
 
 
 ### 4. 2^n vs 2^2n
