@@ -76,6 +76,32 @@
 ## Therefore, Case 3:  T(n) = Θ(n^2/logn)
 
 
+# Problem 2
+
+# Pseudocode for yetAnotherFunc(n)
+
+```java
+yetAnotherFunc(n):
+    if n > 1:    //Base Case
+        for( i = 0 i<10n; i++)  // itereates 10n times 
+            doSomething   // runs everytime in loop
+        yetAnotherFunc(n / 2);   // recursive call with n/2 as arugment
+        yetAnotherFunc(n / 2); // ran twice so 2T(n/2)
+```
+
+### Recurrence Relation
+{ 1
+  2T(n/2) + 10n )
+  
+if n≤1
+if n>1
+​
+
+## Master Method:
+- a = 2 b = 2 f(n) = n
+- n^log(2)(2) = 1
+- 1 < n
+## Therefore,, Case 3: T(n) = Θ(n)
 
 
 
