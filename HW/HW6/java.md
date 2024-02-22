@@ -2,7 +2,7 @@
 ```java
 import java.util.*;
 
-public class Main {
+
 
     public static List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
@@ -33,9 +33,6 @@ public class Main {
         return result;
     }
 
-    public static void main(String[] args) {
-        int[] arr = new int[]{-5, 0, 5, 10, -10, 0};
-        System.out.println(threeSum(arr));
-    }
+ 
 }
 
