@@ -1,6 +1,5 @@
 
 ```Java
-public class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null) {
             return null;
@@ -19,5 +18,4 @@ public class Solution {
             return root;
         }
     }
-}
 ```
