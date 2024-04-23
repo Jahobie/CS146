@@ -6,7 +6,7 @@ public class Solution {
         // Create a priority queue to store edges sorted by their costs
         PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[2] - b[2]);
         
-        // Add all wells as edges to the priority queue
+   
         for (int i = 0; i < wells.length; i++) {
             pq.offer(new int[]{0, i + 1, wells[i]}); // Adding 0 as a virtual node to represent well at each house
         }
@@ -20,7 +20,7 @@ public class Solution {
         Set<Integer> visited = new HashSet<>();
         
         int totalCost = 0;
-        // Initialize with the first house
+    
         visited.add(0);
         
     
