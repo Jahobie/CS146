@@ -21,7 +21,7 @@ class Solution:
         visited.add(0)
         
      
-        while len(visited) < n + 1: # Additional 1 for the virtual node 0
+        while len(visited) < n + 1: 
             cost, house1, house2 = heapq.heappop(pq)
             
          
